@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Brimborium.MarkDownData.ConvertToJson;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        System.Console.WriteLine("Brimborium.MarkDownData.ConvertToJson mdd schema json");
+    }
+}

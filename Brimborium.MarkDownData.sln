@@ -23,13 +23,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brimborium.MarkDownData.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brimborium.MarkDownData.Validation", "tools\Brimborium.MarkDownData.Validation\Brimborium.MarkDownData.Validation.csproj", "{165E23FE-3F06-4CA6-9B9C-72A35164BEAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{5001296A-815E-40B8-B52A-A9F7D9D0DD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdig", "external\Markdig\Markdig.csproj", "{6A08B7EA-35B5-4552-B32C-DD510B3A52C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "process", "process", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		process\brainstrom.md = process\brainstrom.md
+		process\todo.md = process\todo.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		documentation\rules.md = documentation\rules.md
+		documentation\sample.md = documentation\sample.md
+		documentation\syntax.md = documentation\syntax.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4DB85938-0086-422B-8144-79222F3694E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -56,6 +70,13 @@ Global
 		{165E23FE-3F06-4CA6-9B9C-72A35164BEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165E23FE-3F06-4CA6-9B9C-72A35164BEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165E23FE-3F06-4CA6-9B9C-72A35164BEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A08B7EA-35B5-4552-B32C-DD510B3A52C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A08B7EA-35B5-4552-B32C-DD510B3A52C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A08B7EA-35B5-4552-B32C-DD510B3A52C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A08B7EA-35B5-4552-B32C-DD510B3A52C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DB85938-0086-422B-8144-79222F3694E7} = {9648AA4B-6478-49C2-B956-939CD5BA28CB}
@@ -64,5 +85,6 @@ Global
 		{7A9342E5-57EB-4B99-84DE-96914AF6DEF3} = {31B79325-7110-4C34-B41A-C7A7B13847F8}
 		{070D3F0C-2B20-42EC-81E5-AECA6C122CED} = {31B79325-7110-4C34-B41A-C7A7B13847F8}
 		{165E23FE-3F06-4CA6-9B9C-72A35164BEAE} = {31B79325-7110-4C34-B41A-C7A7B13847F8}
+		{6A08B7EA-35B5-4552-B32C-DD510B3A52C2} = {5001296A-815E-40B8-B52A-A9F7D9D0DD3C}
 	EndGlobalSection
 EndGlobal

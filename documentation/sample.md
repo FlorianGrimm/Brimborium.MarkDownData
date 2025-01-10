@@ -1,3 +1,5 @@
+sample
+
 # Key1
 
 *Property01* = Value01
